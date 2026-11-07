@@ -1,0 +1,105 @@
+/* Praise FM homepage ambient glow: no changes to the player or other routes. */
+.praise-ambient-home { background: #111827 !important; color:#f8fafc; }
+.praise-ambient-home .praise-glow-root { position:absolute; inset:0; z-index:0; overflow:hidden; pointer-events:none; }
+.praise-ambient-home .praise-glow-orb { position:absolute; width:75vw; height:75vw; min-width:560px; min-height:560px; max-width:1250px; max-height:1250px; border-radius:50%; filter:blur(42px); opacity:.95; will-change:transform,opacity; transition:background 6s ease; }
+.praise-ambient-home .praise-glow-orb-a { top:-19%; left:-27%; animation:praise-orbit-a 24s ease-in-out infinite alternate; }
+.praise-ambient-home .praise-glow-orb-b { top:10%; right:-29%; animation:praise-orbit-b 29s ease-in-out infinite alternate; }
+.praise-ambient-home .praise-glow-orb-c { bottom:-27%; left:12%; animation:praise-orbit-c 34s ease-in-out infinite alternate; }
+@keyframes praise-orbit-a { 0%{transform:translate3d(-12%,-9%,0) scale(.83);opacity:.60} 50%{opacity:1} 100%{transform:translate3d(42%,24%,0) scale(1.2);opacity:.78} }
+@keyframes praise-orbit-b { 0%{transform:translate3d(17%,15%,0) scale(1.1);opacity:.55} 50%{opacity:1} 100%{transform:translate3d(-42%,-20%,0) scale(.86);opacity:.9} }
+@keyframes praise-orbit-c { 0%{transform:translate3d(-22%,14%,0) scale(.9);opacity:.5} 50%{opacity:.94} 100%{transform:translate3d(32%,-23%,0) scale(1.25);opacity:.72} }
+/* Glass cards, including recent tracks. */
+.praise-ambient-home main > section .bg-gray-100,
+.praise-ambient-home main > section .bg-white,
+.praise-ambient-home main > section .bg-white\/60,
+.praise-ambient-home main > section .bg-white\/45 { background-color:rgba(20,28,43,.52) !important; backdrop-filter:blur(15px); border-color:rgba(255,255,255,.13) !important; }
+.praise-ambient-home main > section .text-gray-950,
+.praise-ambient-home main > section .text-gray-900,
+.praise-ambient-home main > section .text-black { color:#f8fafc !important; }
+.praise-ambient-home main > section .text-gray-500,
+.praise-ambient-home main > section .text-gray-600 { color:#cbd5e1 !important; }
+.praise-ambient-home main > section .border-gray-300 { border-color:rgba(255,255,255,.2) !important; }
+/* Specifically darken Recent Tracks, regardless of its internal card backgrounds. */
+.praise-ambient-home .praise-recent-glass,
+.praise-ambient-home .praise-recent-glass > *,
+.praise-ambient-home .praise-recent-glass > * > * { color:#f8fafc; }
+.praise-ambient-home .praise-recent-glass > * { background:rgba(13,20,35,.62) !important; border:1px solid rgba(255,255,255,.13) !important; border-radius:16px; backdrop-filter:blur(18px); }
+.praise-ambient-home .praise-recent-glass .bg-white,
+.praise-ambient-home .praise-recent-glass .bg-gray-50,
+.praise-ambient-home .praise-recent-glass .bg-gray-100,
+.praise-ambient-home .praise-recent-glass [class*="bg-white"] { background:rgba(255,255,255,.065) !important; }
+.praise-ambient-home .praise-recent-glass [class*="text-gray-9"],
+.praise-ambient-home .praise-recent-glass [class*="text-black"] { color:#f8fafc !important; }
+.praise-ambient-home .praise-recent-glass [class*="text-gray-5"],
+.praise-ambient-home .praise-recent-glass [class*="text-gray-6"] { color:#cbd5e1 !important; }
+@media(max-width:640px){ .praise-ambient-home .praise-glow-orb { min-width:440px;min-height:440px;filter:blur(30px) } }
+@media(prefers-reduced-motion:reduce){ .praise-ambient-home .praise-glow-orb { animation:none !important;will-change:auto } }
+
+/* V3: stronger contrast on program title and Weather, without touching navbar */
+.praise-ambient-home main h1,
+.praise-ambient-home main h2,
+.praise-ambient-home main .text-black,
+.praise-ambient-home main .text-gray-900 { color:#f8fafc !important; }
+.praise-ambient-home main .text-gray-600,
+.praise-ambient-home main .text-gray-700 { color:#d7e1ed !important; }
+/* Sticky mini-player: matches the ambient theme in both desktop and mobile. */
+.praise-glow-mini-player {
+ background:linear-gradient(105deg,rgba(17,31,49,.94),rgba(33,34,57,.93)) !important;
+ color:#f8fafc !important;
+ border-top:1px solid rgba(255,255,255,.18) !important;
+ backdrop-filter:blur(22px) saturate(145%);
+ -webkit-backdrop-filter:blur(22px) saturate(145%);
+ box-shadow:0 -12px 36px rgba(3,9,22,.22);
+}
+.praise-glow-mini-player .text-black,
+.praise-glow-mini-player .text-gray-900,
+.praise-glow-mini-player .text-gray-700,
+.praise-glow-mini-player .text-gray-600 { color:#f8fafc !important; }
+.praise-glow-mini-player .text-gray-500,
+.praise-glow-mini-player .text-gray-400 { color:#cbd5e1 !important; }
+.praise-glow-mini-player button:not(.bg-orange-500):not(.hover\:bg-orange-600) { color:#e2e8f0; }
+.praise-glow-mini-player button.bg-white { background:rgba(255,255,255,.1) !important; border-color:rgba(255,255,255,.45) !important; }
+.praise-glow-mini-player .bg-gray-200 { background-color:rgba(255,255,255,.16) !important; }
+.praise-glow-schedule { background:rgba(15,24,42,.97) !important; color:#f8fafc; }
+.praise-glow-schedule .text-black, .praise-glow-schedule .text-gray-900 { color:#f8fafc !important; }
+.praise-glow-schedule .text-gray-500 { color:#cbd5e1 !important; }
+
+/* V4: remove borders/white outlines from Recent Tracks cards and album covers */
+.praise-ambient-home .praise-recent-glass,
+.praise-ambient-home .praise-recent-glass > *,
+.praise-ambient-home .praise-recent-glass img,
+.praise-ambient-home .praise-recent-glass [class*="border"],
+.praise-ambient-home .praise-recent-glass [class*="ring-"] {
+  border-color: transparent !important;
+  outline: none !important;
+  --tw-ring-color: transparent !important;
+  --tw-ring-shadow: 0 0 #0000 !important;
+}
+.praise-ambient-home .praise-recent-glass > * { border: 0 !important; }
+/* PRAISE FM — Próximos programas */
+
+/* Textos dentro dos cartões de programação */
+.praise-glow-active .grid .text-gray-900,
+.praise-glow-active .grid .text-gray-800,
+.praise-glow-active .grid .text-gray-700,
+.praise-glow-active .grid .text-black {
+  color: #f8fafc !important;
+}
+
+/* Nomes dos apresentadores */
+.praise-glow-active .grid .text-gray-500,
+.praise-glow-active .grid .text-gray-600 {
+  color: #cbd5e1 !important;
+}
+
+/* Weather Outlook */
+.praise-glow-active .text-gray-900,
+.praise-glow-active .text-black {
+  color: #f8fafc !important;
+}
+/* Nomes dos programas na fila */
+.praise-glow-active .grid .font-bold,
+.praise-glow-active .grid .font-semibold {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}

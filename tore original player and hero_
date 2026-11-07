@@ -1,0 +1,518 @@
+[33ma17b66d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m UPDATE
+[33mad8b9c8[m update
+[33me63aaaa[m update
+[33m9b81e51[m update
+[33mdb972c6[m update
+[33mf822577[m update
+[33md30ba97[m update
+[33m057aab9[m update
+[33m7c90235[m update
+[33mb701959[m update
+[33mf357ff6[m update
+[33m0d0a380[m update
+[33meb6f91b[m update
+[33m640350b[m update
+[33mbb2535d[m update
+[33m990ea59[m update
+[33m6fc54ad[m update
+[33ma6ca1ab[m update
+[33me6765c1[m update
+[33ma879aa1[m update
+[33m2c197d7[m update
+[33m581455c[m update
+[33mce76ebd[m update
+[33mf37137b[m update
+[33m1de5737[m update
+[33m583ae4d[m update
+[33m57cd245[m update
+[33m4b9a8a5[m update
+[33mf3686cb[m update
+[33mef6075f[m update
+[33m08f6b99[m UPDATE
+[33m8f015a9[m UPDATE
+[33mdef40bf[m update
+[33m573e563[m Merge pull request #11 from webradiosagradafm/vercel/install-and-configure-vercel-s-1hti7y
+[33m5d02f04[m[33m ([m[1;31morigin/vercel/install-and-configure-vercel-s-1hti7y[m[33m)[m Install and Configure Vercel Speed Insights
+[33m19fb3a8[m Update SEO.tsx
+[33m68a8765[m Update RecentlyPlayed.tsx
+[33mc40eacb[m Update constants.tsx
+[33md5658d1[m update
+[33m291a89d[m update
+[33mad7e074[m update
+[33m774cee6[m update
+[33m5c03319[m update
+[33m2ab393a[m Update LivePlayerBar.tsx
+[33m92ea5a3[m Update LivePlayerBar.tsx
+[33m4f34728[m Update LivePlayerBar.tsx
+[33ma79fdb4[m Update LivePlayerBar.tsx
+[33m400757f[m Update LivePlayerBar.tsx
+[33mec21c20[m Update LivePlayerBar.tsx
+[33md21a1bc[m Update LivePlayerBar.tsx
+[33m3e27099[m Update LivePlayerBar.tsx
+[33m88c9c05[m Update LivePlayerBar.tsx
+[33md4ffb82[m Update LivePlayerBar.tsx
+[33m76c49de[m Update LivePlayerBar.tsx
+[33m3bdc9fa[m Update LivePlayerBar.tsx
+[33m99fecd8[m Update LivePlayerBar.tsx
+[33m2ed8c86[m Update LivePlayerBar.tsx
+[33m159ba22[m Update LivePlayerBar.tsx
+[33mf67397e[m Update LivePlayerBar.tsx
+[33m2acfe40[m Update LivePlayerBar.tsx
+[33m0484c17[m Update LivePlayerBar.tsx
+[33m4901156[m Update LivePlayerBar.tsx
+[33m05f49b6[m Update ListenersNow.tsx
+[33m4a50d8f[m Update RecentlyPlayed.tsx
+[33me5e5a2c[m Update ProgramDetail.tsx
+[33m1ceb8b6[m Update ProgramDetail.tsx
+[33m2196da4[m Update constants.tsx
+[33m4d482e3[m Add files via upload
+[33m2edd9c2[m Delete public/MICHAEL BROOKS.webp
+[33m0317ea9[m Update constants.tsx
+[33m8f924ba[m Update constants.tsx
+[33me0ccded[m Update Hero.tsx
+[33m9de826e[m Update constants.tsx
+[33m7e1f380[m Update AppHomePage.tsx
+[33m31ec57b[m Add files via upload
+[33ma4087c9[m Delete public/PRAISE FM WORSHIP.webp
+[33m1ecc668[m Delete public/PRAISE FM LIVE SHOW.webp
+[33m620c38f[m Rename WORSHIP.webp to PRAISE FM WORSHIP.webp
+[33mc6dd623[m Add files via upload
+[33ma655318[m Delete public/PRAISE FM WORSHIP.webp
+[33m529d34f[m Delete public/PRAISE FM NON STOP.webp
+[33m10c3192[m Update App.tsx
+[33m60b61d3[m Update LivePlayerBar.tsx
+[33mac65d35[m Update LivePlayerBar.tsx
+[33m0b5c75d[m Update LivePlayerBar.tsx
+[33mbac9991[m Update LivePlayerBar.tsx
+[33mf853dce[m Update LivePlayerBar.tsx
+[33me017b59[m update
+[33mf4f68a4[m update
+[33m16b8939[m update
+[33mf8cc7e8[m Update LivePlayerBar.tsx
+[33mb0005df[m Update LivePlayerBar.tsx
+[33mb615058[m Update LivePlayerBar.tsx
+[33m8c65d3e[m Update LivePlayerBar.tsx
+[33m1d4ba87[m update
+[33md5eeffb[m update
+[33m5a3bc2e[m update
+[33m554cba7[m update
+[33m504635f[m update
+[33m9cfdf73[m update
+[33m333e26a[m update
+[33m03a9164[m update
+[33m5f5f823[m update
+[33m59c9b27[m update
+[33m1db4c6e[m update
+[33m74bff1f[m update
+[33mdc6277f[m update
+[33md2cdbc9[m update
+[33m48a1c83[m update
+[33m4561ea4[m update
+[33maa40a4c[m update
+[33mf08cf74[m update
+[33m2440027[m update
+[33m3df3c98[m update
+[33m7b054a4[m update
+[33m9807ed3[m update
+[33m780880b[m update
+[33m0fb8f8b[m update
+[33ma797a5a[m update
+[33m6271f0f[m update
+[33m62caccb[m update
+[33m4fdc00a[m update
+[33m2008d79[m update
+[33ma66a057[m update
+[33m0a49fce[m update
+[33m17a8986[m update
+[33m0ff78ac[m Merge pull request #9 from webradiosagradafm/dependabot/npm_and_yarn/vite-8.0.8
+[33m2310919[m Update RecentlyPlayed.tsx
+[33m7816906[m Update AuthContext.tsx
+[33m696c812[m Update ProfilePage.tsx
+[33m9360724[m Update ProfilePage.tsx
+[33m495806d[m Update Navbar.tsx
+[33mec61cae[m Update AuthContext.tsx
+[33m3279fe3[m Update Navbar.tsx
+[33mbc124e6[m Update AuthContext.tsx
+[33md46aa3e[m Update AuthContext.tsx
+[33m6aab057[m Update AuthContext.tsx
+[33m77c0b4d[m update
+[33m90da8e9[m update
+[33m4cd4296[m Bump vite from 5.4.21 to 8.0.8
+[33m76ff3ed[m update
+[33mdd83d5e[m update
+[33m6f4464a[m update
+[33m0013ee2[m update
+[33m764306c[m update
+[33m8484ed6[m update
+[33m77dc10c[m update
+[33m41d86de[m Refactor App component and clean up imports
+[33mf46eb8c[m Update manifest.json for app name and description
+[33m681207e[m Modify package.json for praise-fm-usa project
+[33m27e69de[m Refactor ProgramDetail component for clarity
+[33m7d27eac[m Refactor ProgramRing component for improved styling
+[33ma59ce39[m Update package.json with new project details
+[33m93620af[m Refactor PWA service worker registration
+[33m5612e86[m update
+[33m28f730a[m update
+[33medec4de[m update
+[33m0774498[m update
+[33mef1c76b[m update
+[33mc78add6[m update
+[33m3209d90[m update
+[33m1472756[m update
+[33m8e385cf[m update
+[33m6ec98ab[m update
+[33m103bff6[m Update package.json with new project details
+[33m65479a6[m date
+[33m42733ec[m update
+[33mbcb3196[m update
+[33m8751b45[m Refactor LivePlayerBar for better progress tracking
+[33m441d4a3[m update
+[33mb39f35f[m update
+[33m6cc088c[m update
+[33m7957782[m update
+[33m8778f5a[m update
+[33mbfa0432[m update
+[33mc8feef3[m update
+[33mbbe6f7a[m update
+[33m63e1745[m update
+[33mbdc1dbf[m update
+[33m72cde88[m update
+[33mfaaabdb[m update
+[33m87a1eae[m update
+[33m4285eee[m update
+[33m92d45d4[m Add new pages for programs and radio content
+[33mc2329b9[m Add WorshipRadioPage component with SEO and content
+[33m045ebd9[m Add GospelRadioPage component with SEO and content
+[33m9e606c6[m Add ChristianRadioPage component with SEO and content
+[33macfe637[m Create ProgramsPage component for Praise FM
+[33mcb1cabc[m Add robots.txt to allow all agents and specify sitemap
+[33m1f9686d[m Add sitemap.xml for website SEO
+[33mfa99d08[m update
+[33mf30c65e[m update
+[33m5a47790[m update
+[33mc88c2d6[m update
+[33m8ae8cc1[m update
+[33m1423006[m update
+[33m6014cf3[m update
+[33mb1733c0[m update
+[33mad93039[m update
+[33m2765608[m update
+[33mf1fcc4a[m update
+[33mc577397[m update
+[33m62b6610[m update
+[33m35f701d[m update
+[33mc726bf2[m update
+[33mf91c656[m update
+[33m6f8d4f8[m update
+[33maed7334[m update
+[33me3da3fb[m update
+[33m6b07dee[m update
+[33mcd51da1[m update
+[33mcd9153b[m update
+[33m5359c06[m Update LivePlayerBar.tsx
+[33m6ee86e0[m Update LivePlayerBar.tsx
+[33m47d4ed1[m Update LivePlayerBar.tsx
+[33m498a642[m Update LiveListenersCounter.tsx
+[33mc723dac[m Rename Livelistenerscounter.tsx to LiveListenersCounter.tsx
+[33me1711aa[m Update Livelistenerscounter.tsx
+[33m9415278[m Update LivePlayerBar.tsx
+[33md3e24c9[m Create Livelistenerscounter.tsx
+[33m8fa66eb[m Update LivePlayerBar.tsx
+[33m21c9a47[m Create ListenersDashboard.tsx
+[33m4a010e3[m Update LivePlayerBar.tsx
+[33m778b1bd[m Update LivePlayerBar.tsx
+[33m72a4586[m update
+[33mcde4eb9[m update
+[33md76ca11[m update
+[33m7788d72[m update
+[33m266ce2c[m update
+[33m273f69b[m update
+[33md3223bb[m update
+[33m9da734a[m update
+[33mc4db3f0[m update
+[33mce928e8[m update
+[33m8c8f538[m update
+[33m431d496[m update
+[33m0406576[m update
+[33m31548ed[m update
+[33m35fd9fc[m Update index.css
+[33ma804fa1[m Update App.tsx
+[33m7965ecd[m Update index.html
+[33m461f34f[m Update index.html
+[33m050ca21[m UPDATE
+[33m90d8bd6[m update
+[33m5369314[m update
+[33mbc7bd54[m update
+[33md5b71a7[m Update postcss.config.js
+[33ma26864e[m Simplify Tailwind configuration
+[33me0fe839[m Import index.css and enhance root element check
+[33m4fb2d94[m Add Tailwind utilities and global styles
+[33m7bbcdca[m Replace RouterProvider with App component
+[33mf2682d1[m Delete src/router.tsx
+[33ma7768ea[m Refactor App component structure and routing
+[33m9c5e378[m Add .tsx extension to App component import
+[33mf59971d[m Refactor App component structure and imports
+[33m3bb2bd9[m Refactor App component with routing and audio handling
+[33m5fd3b10[m Clarify comment on streaming interception
+[33mdaa0c16[m Add Vercel configuration for URL rewrites
+[33m69734b2[m Change start_url in manifest.json to '/app'
+[33m5e93df4[m Update comment to use non-English language
+[33mb1ad1aa[m Add service worker registration function
+[33m27fbdec[m Refactor main.tsx to use RouterProvider and registerSW
+[33meddd8a7[m Update router.tsx
+[33m51ad984[m Refactor service worker event listeners and comments
+[33m2cb2017[m Update start_url and add purpose to icons
+[33m6ea3396[m update
+[33m3b3a430[m update
+[33m65718f0[m update
+[33mdfc9437[m update
+[33mae65fae[m update
+[33mce14378[m update
+[33mf4c36d4[m update
+[33m86597a1[m update
+[33m8699d3f[m update
+[33ma3379c0[m update
+[33mfd2e8d7[m update
+[33m887f6f5[m update
+[33m4fb564c[m update
+[33m8e7d2c9[m update
+[33md042f5c[m update
+[33m61d7800[m Delete public/screenshot-mobile.png
+[33ma7c2008[m update
+[33m2c01eea[m update
+[33m36e49c3[m update
+[33m5b944a7[m update
+[33m7c74ffd[m update
+[33me6f9f00[m update
+[33m2046f4b[m update
+[33m683dea3[m update
+[33m68b9b53[m update
+[33m3070f3d[m update
+[33md2190dc[m update
+[33mfdf651e[m update
+[33m0103c3f[m update
+[33me94b70d[m update
+[33mcfe879e[m update
+[33m2407930[m update
+[33m88bb0c3[m update
+[33mc303aaf[m update
+[33md605143[m update
+[33mc7ff6be[m update
+[33m6654435[m update
+[33maafa06d[m update
+[33m3857319[m update
+[33m4770a10[m update
+[33m0b98998[m update
+[33m2eed587[m update
+[33ma32722a[m update
+[33m7e51a51[m update
+[33me89e666[m update
+[33me2f651c[m update
+[33mfdf4d89[m update
+[33mf774956[m update
+[33m5b58c4f[m update
+[33m075d2d8[m update
+[33mec403d6[m update
+[33m9020793[m update
+[33m1ea097e[m update
+[33m9ae90fd[m update
+[33m0fb527a[m update
+[33m0be2aee[m upgrade
+[33m25ca1a2[m update
+[33mb2c3d6f[m update
+[33m1e2e3c2[m update
+[33m0f7a772[m update
+[33m81cff5a[m update
+[33m94dc6a9[m update
+[33m2ecd4c1[m update
+[33m4014a3d[m Add settings to ignore unknown CSS at-rules
+[33m46a1dfd[m update
+[33mdd4641b[m update
+[33m3533ead[m update
+[33m8d5dd69[m update
+[33m4aef1c1[m update
+[33mee0be38[m update
+[33m862e24f[m update
+[33m867e5b3[m update
+[33mb6aaad6[m update
+[33m78b487c[m update
+[33m857010e[m update
+[33m1ab0781[m update
+[33m2ad1378[m update
+[33m444d63b[m update
+[33mdc53560[m update
+[33me58eb07[m update
+[33m10dee31[m update
+[33m1be1fa7[m update
+[33mc3a84fe[m update
+[33m99642c4[m update
+[33mc50995d[m update
+[33me08a3f8[m update
+[33mccfb201[m update
+[33mb0f85f0[m update
+[33m4b7bc1f[m update
+[33m4d40c2a[m update
+[33me64ea8c[m update
+[33m589d214[m update
+[33m6d52348[m update
+[33m12c6102[m update
+[33m78df0fe[m update
+[33m1cb4b59[m update
+[33m4b45ba2[m upate
+[33md5f3f14[m update
+[33mec8cc40[m update
+[33m17c1536[m update
+[33m38b97da[m update
+[33mea8fc43[m update
+[33mc11d235[m update
+[33mafce2b9[m update
+[33mec7acdf[m update
+[33m23a07f4[m update
+[33mf531002[m update
+[33m7a95ffd[m update
+[33m156088a[m update
+[33mc063aff[m update
+[33m492daa9[m update
+[33m3dae747[m update
+[33me373351[m update
+[33m5ea1aab[m update
+[33mb202c68[m update
+[33m259a40b[m update
+[33m7e148d8[m update
+[33mc9cbd0a[m update
+[33md12522f[m update
+[33m7316827[m update
+[33me0d6060[m update
+[33m6159e13[m update
+[33m083e731[m update
+[33m3e9c96e[m update
+[33m06ed146[m update
+[33m4774502[m update
+[33m148af14[m update
+[33mbb78b87[m update
+[33m149f961[m update
+[33m7d3ccc9[m update
+[33m6eff9df[m update
+[33m2d8ff62[m update
+[33m87248ae[m update
+[33m7812677[m update
+[33m336a32d[m update
+[33mc4b6424[m update
+[33mb4cc6f2[m update
+[33m8da762c[m update
+[33m7b5d6f6[m update
+[33mbd616e7[m update
+[33m3d68bc1[m update
+[33m548d256[m update
+[33m0df4bf2[m update
+[33m4cfd8a7[m update
+[33m0788ecb[m update
+[33m2179200[m update
+[33mbc0fc12[m update
+[33mb35b853[m update
+[33mb57d11f[m update
+[33mb3546d3[m update
+[33m4a1f1bb[m update
+[33m6667f3e[m update
+[33mf3262e4[m update
+[33m6227496[m update
+[33m5faa0ac[m update
+[33m3aae00e[m update
+[33m7752851[m update
+[33ma0a0c20[m update
+[33me962172[m update
+[33m40dfd24[m update
+[33mf6462ba[m update
+[33mc444bf7[m UPDATE
+[33m94d3c4d[m updATE
+[33m3464a89[m update
+[33mc15a260[m update
+[33m8944d14[m update
+[33m78e6e3a[m update
+[33m7454a1e[m update
+[33m17b259f[m update
+[33m354618f[m update
+[33m8c15c45[m update
+[33m19cc5da[m update
+[33mfd0140e[m update
+[33mabd7469[m update
+[33m9259c62[m update
+[33mca01fa0[m update
+[33m51f0e9e[m update
+[33m224221c[m update
+[33m0415f11[m update
+[33mbf675bf[m update
+[33m155729f[m update
+[33m55134c5[m update
+[33m96078ee[m update
+[33mf25828f[m update
+[33ma4bdcf4[m Add PostCSS configuration with Tailwind CSS and Autoprefixer
+[33maea75b0[m Initialize Tailwind CSS configuration file
+[33md598d8b[m Add Tailwind CSS base, components, and utilities
+[33m687f5d5[m update
+[33ma7baaad[m update
+[33m72a90e4[m update
+[33mc761d20[m update
+[33m3e342ea[m update
+[33m56cc913[m update
+[33maa72e31[m update
+[33mce92288[m update
+[33m0595e83[m update
+[33m58dd169[m update
+[33m21b588e[m update
+[33mfcd23d6[m update
+[33m747e5e7[m update
+[33m64f44d3[m update
+[33mc6de18a[m update
+[33mb95baa2[m ipdate
+[33m072e057[m UPDATE
+[33mbd0ca18[m update
+[33mf6742f5[m update
+[33m29d5195[m update
+[33m44e92ff[m update
+[33m36478b6[m update
+[33mf9699c5[m update
+[33m5856535[m update
+[33m3a84ed8[m update
+[33m85f39cb[m update
+[33mf3c9a5d[m update
+[33mf083e84[m update
+[33m131cd3e[m update
+[33m0dcbfaa[m update
+[33m1818aad[m update
+[33m5700067[m update
+[33m07ca1d2[m update
+[33mb191667[m update
+[33mba82c82[m update
+[33m9b0da7b[m update
+[33m0b9c3d0[m update
+[33mcbf4aa2[m update
+[33m413f0b4[m update
+[33m993b6a6[m update
+[33m258d712[m update
+[33m99296a3[m update
+[33m03b0655[m update
+[33medf6747[m update
+[33m682b0d7[m update
+[33m4ebabdf[m update
+[33m4b01216[m update
+[33m3a558da[m UPDATE
+[33m4e86c8a[m update
+[33m61c9f18[m update
+[33md6cda03[m update
+[33m0caedce[m update
+[33ma80d13e[m update
+[33m720cf44[m update
+[33mc92cd3c[m update
+[33m52a8137[m update
+[33m7045805[m update
+[33ma8b47f9[m update
+[33m296494e[m update
+[33m22147e7[m update
+[33m40f7abd[m update
+[33m3bcf910[m update
+[33mc27ddfb[m update
+[33m9f15d8a[m update
+[33mae2e8c3[m update
+[33m2a55ab8[m Initial commit
