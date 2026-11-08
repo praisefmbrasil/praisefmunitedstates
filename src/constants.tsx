@@ -30,6 +30,7 @@ const IMAGES = {
   ROCK_MIX: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791176390/praise-fm-rock-mix_fstjt3.webp',
   CLASSICS_MIX: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791177197/praise-fm-classics-mix_s6iy8j.webp',
   NON_STOP: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791176390/non-stop_frjo6q.webp',
+  SPORTS_HIGHLIGHTS: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1794110192/praise-fm-sports_bpddb7.webp',
 }
 
 const weekday: Program[] = [
@@ -70,10 +71,19 @@ const weekday: Program[] = [
     image: IMAGES.WORSHIP
   },
   {
+    id: 'sports-highlights',
+    title: 'Praise FM Sports Highlights',
+    host: 'Praise FM',
+    startTime: '13:00',
+    endTime: '14:00',
+    description: 'The top sports stories and highlights from last night.',
+    image: IMAGES.SPORTS_HIGHLIGHTS
+  },
+  {
     id: 'midday-grace',
     title: 'Midday Grace',
     host: 'Michael Ray',
-    startTime: '13:00',
+    startTime: '14:00',
     endTime: '16:00',
     description: 'Faith and encouragement through music.',
     image: IMAGES.MICHAEL_RAY
@@ -190,10 +200,19 @@ const saturday: Program[] = [
     image: IMAGES.WORSHIP
   },
   {
+    id: 'saturday-sports-highlights',
+    title: 'Praise FM Sports Highlights',
+    host: 'Praise FM',
+    startTime: '13:00',
+    endTime: '14:00',
+    description: 'The top sports stories and highlights from last night.',
+    image: IMAGES.SPORTS_HIGHLIGHTS
+  },
+  {
     id: 'saturday-midday-grace',
     title: 'Midday Grace',
     host: 'Michael Ray',
-    startTime: '13:00',
+    startTime: '14:00',
     endTime: '16:00',
     description: 'Faith and encouragement through music.',
     image: IMAGES.MICHAEL_RAY
@@ -301,10 +320,19 @@ const sunday: Program[] = [
     image: IMAGES.WORSHIP
   },
   {
+    id: 'sunday-sports-highlights',
+    title: 'Praise FM Sports Highlights',
+    host: 'Praise FM',
+    startTime: '13:00',
+    endTime: '14:00',
+    description: 'The top sports stories and highlights from last night.',
+    image: IMAGES.SPORTS_HIGHLIGHTS
+  },
+  {
     id: 'sunday-midday-grace',
     title: 'Midday Grace',
     host: 'Michael Ray',
-    startTime: '13:00',
+    startTime: '14:00',
     endTime: '16:00',
     description: 'Faith and encouragement through music.',
     image: IMAGES.MICHAEL_RAY
@@ -375,11 +403,11 @@ const sunday: Program[] = [
 ]
 
 export const SCHEDULES: Record<number, Program[]> = {
-  0: sunday,    // Domingo (Country 16h, Non Stop 17h, Classics Mix 21h, Chill Mix 22h)
-  1: weekday,   // Segunda
+  0: sunday,    // Domingo (Sports Highlights 13h, Midday Grace 14h, Country 16h, Non Stop 17h, Classics Mix 21h, Chill Mix 22h)
+  1: weekday,   // Segunda (Sports Highlights 13h, Midday Grace 14h)
   2: weekday,   // Terça
   3: wednesday, // Quarta (Golden Hymns)
   4: weekday,   // Quinta
   5: weekday,   // Sexta
-  6: saturday   // Sábado (Country 18h, Rock Mix 19h, Classics Mix 20h, Non Stop 21h, Chill Mix 22h)
+  6: saturday   // Sábado (Sports Highlights 13h, Midday Grace 14h, Country 18h, Rock Mix 19h, Classics Mix 20h, Non Stop 21h, Chill Mix 22h)
 }
