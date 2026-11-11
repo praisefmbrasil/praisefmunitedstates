@@ -9,7 +9,14 @@ type VercelResponse = {
   json: (body: unknown) => VercelResponse
 }
 
-const CHANNELS = [
+type Channel = {
+  name: string
+  handle: string
+  pastor: string
+  channelId?: string
+}
+
+const CHANNELS: Channel[] = [
   {
     name: 'Elevation Church',
     handle: '@elevationchurch',
@@ -28,6 +35,7 @@ const CHANNELS = [
   {
     name: 'Bethel Church',
     handle: '@bethel_online',
+    channelId: 'UCCXeH0YaG1FgC5a3Ueie-EA',
     pastor: 'Bethel Church Pastors'
   }
 ]
@@ -79,10 +87,9 @@ async function getChannelId(handle: string) {
   return channelId
 }
 
-async function getChannelVideos(
-  channel: typeof CHANNELS[number]
-) {
-  const channelId = await getChannelId(channel.handle)
+async function getChannelVideos(channel: Channel) {
+  const channelId =
+    channel.channelId || await getChannelId(channel.handle)
 
   const response = await fetch(
     `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`,
