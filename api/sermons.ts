@@ -23,10 +23,11 @@ const CHANNELS: Channel[] = [
     pastor: 'Steven Furtick'
   },
   {
-    name: 'Life.Church',
-    handle: '@lifechurch',
-    pastor: 'Life.Church Pastors'
-  },
+  name: 'Life.Church',
+  handle: '@life.church',
+  channelId: 'UCoDt562cJaageYU-LYKt4Pw',
+  pastor: 'Craig Groeschel and Life.Church Pastors'
+},
   {
     name: 'Transformation Church',
     handle: '@wearetransformation',
