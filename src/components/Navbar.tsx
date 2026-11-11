@@ -27,7 +27,7 @@ const navItems = [
   { id: 'music', label: 'Music', icon: Music, path: '/music' },
   { id: 'sports', label: 'Sports', icon: Trophy, path: '/sports' },
   { id: 'schedule', label: 'Schedule', icon: Calendar, path: '/schedule' },
-  { id: 'devotional', label: 'Devotional', icon: Radio, path: '/devotional' }
+  { id: 'sermons', label: 'Sermons', icon: Radio, path: '/sermons' }
 ]
 
 const Navbar: React.FC<NavbarProps> = ({ activeTab, programColor }) => {

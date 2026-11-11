@@ -28,7 +28,7 @@ import AmbientBackground from './components/AmbientBackground'
 
 import './praise-ambient-glow.css'
 
-import DevotionalPage from './pages/DevotionalPage'
+import DevotionalPage from './pages/SermonsPage'
 import SermonPage from './pages/SermonPage'
 import NewReleasesPage from './pages/NewReleasesPage'
 import FeaturedArtistsPage from './pages/FeaturedArtistsPage'
