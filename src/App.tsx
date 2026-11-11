@@ -29,6 +29,7 @@ import AmbientBackground from './components/AmbientBackground'
 import './praise-ambient-glow.css'
 
 import DevotionalPage from './pages/DevotionalPage'
+import SermonPage from './pages/SermonPage'
 import NewReleasesPage from './pages/NewReleasesPage'
 import FeaturedArtistsPage from './pages/FeaturedArtistsPage'
 import PresentersPage from './pages/PresentersPage'
@@ -1076,6 +1077,7 @@ const AppContent: React.FC = () => {
             />
 
             <Route path="/devotional" element={<DevotionalPage />} />
+            <Route path="/devotional/:slug" element={<SermonPage />} />
             <Route path="/new-releases" element={<NewReleasesPage />} />
             <Route path="/artists" element={<FeaturedArtistsPage />} />
 
