@@ -38,6 +38,7 @@ export default function SEO({
 }: SEOProps) {
   useEffect(() => {
     const canonicalUrl = getCanonicalUrl(url)
+
     const imageUrl = image
       ? new URL(image, SITE_URL).href
       : DEFAULT_IMAGE
@@ -78,6 +79,7 @@ export default function SEO({
 
     // SEO básico
     setMeta('name', 'description', description)
+
     setMeta(
       'name',
       'robots',
@@ -107,6 +109,7 @@ export default function SEO({
 
     // Dados estruturados
     const scriptId = 'seo-jsonld'
+
     let scriptTag = document.getElementById(
       scriptId,
     ) as HTMLScriptElement | null
