@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Play, Youtube, Calendar, Radio } from 'lucide-react'
+import SEO from '../components/SEO'
 
 type Sermon = {
   id: string
@@ -32,6 +33,7 @@ const SermonPage: React.FC = () => {
       try {
         setLoading(true)
         setError('')
+        setSermon(null)
 
         const response = await fetch('/api/sermons')
 
@@ -40,6 +42,7 @@ const SermonPage: React.FC = () => {
         }
 
         const data = await response.json()
+
         const found = (data.sermons || []).find(
           (item: Sermon) => item.slug === slug
         )
@@ -71,16 +74,41 @@ const SermonPage: React.FC = () => {
     ? new Date(sermon.publishedAt).toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'long',
-        day: 'numeric'
+        day: 'numeric',
       })
     : ''
 
   return (
     <main className="min-h-screen pb-20 text-white">
+
+      {sermon && (
+        <SEO
+          title={`${sermon.title} | Sermons | Praise FM USA`}
+          description={`Watch ${sermon.title} from ${sermon.channelName || sermon.channel} on Praise FM USA.`}
+          url={`/sermons/${sermon.slug}`}
+          image={sermon.thumbnail}
+          jsonLd={{
+            '@context': 'https://schema.org',
+            '@type': 'VideoObject',
+            name: sermon.title,
+            description: `Watch ${sermon.title} on Praise FM USA.`,
+            thumbnailUrl: sermon.thumbnail,
+            uploadDate: sermon.publishedAt,
+            embedUrl: sermon.embedUrl,
+            url: `https://praisefmradio.vercel.app/sermons/${sermon.slug}`,
+            publisher: {
+              '@type': 'Organization',
+              name: 'Praise FM USA',
+              url: 'https://praisefmradio.vercel.app',
+            },
+          }}
+        />
+      )}
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-10">
 
         <Link
-          to="/devotional"
+          to="/sermons"
           className="inline-flex items-center gap-2 text-white/60 hover:text-[#ff6600] transition-colors mb-8"
         >
           <ArrowLeft size={18} />
@@ -99,12 +127,15 @@ const SermonPage: React.FC = () => {
         {!loading && error && (
           <div className="py-24 text-center">
             <Radio className="mx-auto text-[#ff6600] mb-5" size={42} />
+
             <h1 className="text-3xl font-black uppercase mb-4">
               Sermon Not Found
             </h1>
+
             <p className="text-white/60 mb-8">{error}</p>
+
             <Link
-              to="/devotional"
+              to="/sermons"
               className="inline-flex items-center gap-2 bg-[#ff6600] text-white font-bold px-7 py-3 rounded-lg hover:bg-orange-500 transition-colors"
             >
               <ArrowLeft size={18} />
@@ -146,7 +177,10 @@ const SermonPage: React.FC = () => {
 
             <div className="relative w-full aspect-video bg-black rounded-xl overflow-hidden border border-white/10 shadow-2xl">
               <iframe
-                src={sermon.embedUrl || `https://www.youtube-nocookie.com/embed/${sermon.videoId}`}
+                src={
+                  sermon.embedUrl ||
+                  `https://www.youtube-nocookie.com/embed/${sermon.videoId}`
+                }
                 title={sermon.title}
                 className="absolute inset-0 w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -160,13 +194,17 @@ const SermonPage: React.FC = () => {
                 <p className="text-white font-bold text-lg">
                   Watch. Grow. Be Inspired.
                 </p>
+
                 <p className="text-white/50 text-sm mt-1">
                   Faith-filled messages selected by Praise FM USA.
                 </p>
               </div>
 
               <a
-                href={sermon.videoUrl || `https://www.youtube.com/watch?v=${sermon.videoId}`}
+                href={
+                  sermon.videoUrl ||
+                  `https://www.youtube.com/watch?v=${sermon.videoId}`
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#ff6600] hover:bg-orange-500 text-white font-black uppercase tracking-wide px-7 py-4 rounded-lg transition-colors"
