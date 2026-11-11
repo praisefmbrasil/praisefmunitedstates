@@ -21,7 +21,7 @@ const CHANNELS = [
   { id: 'elevation', name: 'Elevation Church' },
   { id: 'lifechurch', name: 'Life.Church' },
   { id: 'transformation', name: 'Transformation Church' },
-  { id: 'highlands', name: 'Church of the Highlands' },
+  { id: 'bethel', name: 'Bethel Church' },
 ]
 
 const DevotionalPage: React.FC = () => {
