@@ -28,7 +28,7 @@ import AmbientBackground from './components/AmbientBackground'
 
 import './praise-ambient-glow.css'
 
-import DevotionalPage from './pages/SermonsPage'
+import SermonsPage from './pages/SermonsPage'
 import SermonPage from './pages/SermonPage'
 import NewReleasesPage from './pages/NewReleasesPage'
 import FeaturedArtistsPage from './pages/FeaturedArtistsPage'
@@ -150,7 +150,6 @@ const getChicagoDayAndTotalMinutes = () => {
     parts.find((part) => part.type === 'minute')?.value || 0,
   )
 
-  // Alguns ambientes podem representar meia-noite como 24.
   if (hour === 24) hour = 0
 
   const dayMap: Record<string, number> = {
@@ -207,7 +206,6 @@ const getProgramImage = (program?: Program) => {
   )
 }
 
-// Gera URLs estáveis para páginas de programas.
 const slugify = (value: string) =>
   value
     .normalize('NFD')
@@ -217,7 +215,6 @@ const slugify = (value: string) =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
 
-// Localiza os programas cadastrados na programação.
 const getAllPrograms = (): Program[] =>
   Object.values(SCHEDULES).flat() as Program[]
 
@@ -232,7 +229,7 @@ const SEO_PAGES: Record<string, SEOPage> = {
   '/': {
     title: 'Praise FM USA | Live Christian Radio, Gospel & Worship',
     description:
-      'Listen live to Praise FM USA for gospel music, Christian hits, worship, devotionals and uplifting programs 24/7.',
+      'Listen live to Praise FM USA for gospel music, Christian hits, worship and uplifting programs 24/7.',
   },
   '/music': {
     title: 'Gospel & Worship Music | Praise FM USA',
@@ -244,10 +241,10 @@ const SEO_PAGES: Record<string, SEOPage> = {
     description:
       'Explore the Praise FM USA radio schedule, shows, presenters and broadcast times.',
   },
-  '/devotional': {
-    title: 'Christian Devotionals | Praise FM USA',
+  '/sermons': {
+    title: 'Sermons | Praise FM USA',
     description:
-      'Find Christian encouragement and faith-centered devotionals with Praise FM USA.',
+      'Watch inspiring sermons from Elevation Church, Life.Church, Transformation Church and Church of the Highlands on Praise FM USA.',
   },
   '/new-releases': {
     title: 'New Christian Music Releases | Praise FM USA',
@@ -535,6 +532,18 @@ const LegacyProgramRedirect = () => {
   }
 
   return <Navigate to={`/program/${slugify(program.title)}`} replace />
+}
+
+// Redireciona os endereços antigos para as novas páginas SERMONS.
+const LegacySermonRedirect = () => {
+  const { slug } = useParams()
+
+  return (
+    <Navigate
+      to={slug ? `/sermons/${slug}` : '/sermons'}
+      replace
+    />
+  )
 }
 
 const AppContent: React.FC = () => {
@@ -991,12 +1000,15 @@ const AppContent: React.FC = () => {
       />
 
       <div className="relative z-10 flex min-h-screen flex-col">
-        <SEO
-          title={seo.title}
-          description={seo.description}
-          url={pathname}
-          jsonLd={pathname === '/' ? homeJsonLd : undefined}
-        />
+        {/* O SEO individual dos sermões fica dentro de SermonPage. */}
+        {!pathname.startsWith('/sermons/') && (
+          <SEO
+            title={seo.title}
+            description={seo.description}
+            url={pathname}
+            jsonLd={pathname === '/' ? homeJsonLd : undefined}
+          />
+        )}
 
         <Navbar
           activeTab={
@@ -1076,8 +1088,20 @@ const AppContent: React.FC = () => {
               }
             />
 
-            <Route path="/devotional" element={<DevotionalPage />} />
-            <Route path="/devotional/:slug" element={<SermonPage />} />
+            {/* SERMONS */}
+            <Route path="/sermons" element={<SermonsPage />} />
+            <Route path="/sermons/:slug" element={<SermonPage />} />
+
+            {/* Redirecionamento dos endereços antigos. */}
+            <Route
+              path="/devotional"
+              element={<LegacySermonRedirect />}
+            />
+            <Route
+              path="/devotional/:slug"
+              element={<LegacySermonRedirect />}
+            />
+
             <Route path="/new-releases" element={<NewReleasesPage />} />
             <Route path="/artists" element={<FeaturedArtistsPage />} />
 
