@@ -26,9 +26,9 @@ const CHANNELS = [
     pastor: 'Michael Todd'
   },
   {
-    name: 'Church of the Highlands',
-    handle: '@churchofthehighlands',
-    pastor: 'Church of the Highlands Pastors'
+    name: 'Bethel Church',
+    handle: '@bethel_online',
+    pastor: 'Bethel Church Pastors'
   }
 ]
 
