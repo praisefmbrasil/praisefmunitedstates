@@ -244,7 +244,7 @@ const SEO_PAGES: Record<string, SEOPage> = {
   '/sermons': {
     title: 'Sermons | Praise FM USA',
     description:
-      'Watch inspiring sermons from Elevation Church, Life.Church, Transformation Church and Church of the Highlands on Praise FM USA.',
+      'Watch inspiring sermons from Elevation Church, Life.Church, Transformation Church and Bethel Church on Praise FM USA.',
   },
   '/new-releases': {
     title: 'New Christian Music Releases | Praise FM USA',
