@@ -1126,12 +1126,6 @@ const AppContent: React.FC = () => {
               element={<SportsLeaguePage />}
             />
 
-            {/* Não redireciona silenciosamente páginas inexistentes para a home. */}
-            <Route
-              path="/live-recordings"
-              element={<Navigate to="/schedule" replace />}
-            />
-
             <Route
               path="*"
               element={<Navigate to="/" replace />}
