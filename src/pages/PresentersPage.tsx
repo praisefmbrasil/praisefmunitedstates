@@ -48,7 +48,7 @@ const PRESENTERS_DATA = [
   },
   {
     name: 'Scott Turner',
-    image: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1783132371/scott-turner_cwy1bc.webp',
+    image: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1794944598/scott-turner_h9yb9t.webp',
     bio: 'A historian of worship music, Scott hosts Praise FM Classics, taking listeners back to timeless songs that shaped generations.',
     programTitle: 'Classics'
   },

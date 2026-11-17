@@ -16,7 +16,7 @@ const IMAGES = {
   BIBLEPROJECT_PODCAST: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1792277020/BP_Show_Podcast_Icon_yg8olu.webp',
   LEXXA: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791853506/praise-fm-rock_mz54t4.webp',
   AVA_BROOKS: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1782158973/ava-brooks_oyzibl.webp',
-  SCOTT_TURNER: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1783132371/scott-turner_cwy1bc.webp',
+  SCOTT_TURNER: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1794944598/scott-turner_h9yb9t.webp',
   KENNY_AJ: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791853506/praise-fm-flow_ef6gqq.webp',
   SARAH_JORDAN: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1782158974/sarah-jordan_tfnxpp.webp',
   WORSHIP: 'https://res.cloudinary.com/dtecypmsh/image/upload/v1791176390/worship_tlnp2j.webp',
