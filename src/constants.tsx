@@ -107,10 +107,19 @@ const weekday: Program[] = [
     image: IMAGES.SARAH_JORDAN
   },
   {
+    id: 'sports-highlights-evening',
+    title: 'Praise FM Sports Highlights',
+    host: 'Praise FM',
+    startTime: '18:00',
+    endTime: '19:00',
+    description: 'The top sports stories and highlights from last night.',
+    image: IMAGES.SPORTS_HIGHLIGHTS
+  },
+  {
     id: 'carpool',
     title: 'Praise FM Carpool',
     host: 'Rachael Harris',
-    startTime: '18:00',
+    startTime: '19:00',
     endTime: '20:00',
     description: 'Your company on the way home.',
     image: IMAGES.RACHAEL_HARRIS
@@ -404,9 +413,9 @@ const sunday: Program[] = [
 
 export const SCHEDULES: Record<number, Program[]> = {
   0: sunday,    // Domingo (Sports Highlights 13h, Midday Grace 14h, Country 16h, Non Stop 17h, Classics Mix 21h, Chill Mix 22h)
-  1: weekday,   // Segunda (Sports Highlights 13h, Midday Grace 14h)
+  1: weekday,   // Segunda (Sports Highlights 13h e 18h, Midday Grace 14h, Carpool 19h)
   2: weekday,   // Terça
-  3: wednesday, // Quarta (Golden Hymns)
+  3: wednesday, // Quarta (Sports Highlights 13h e 18h, Golden Hymns 21h)
   4: weekday,   // Quinta
   5: weekday,   // Sexta
   6: saturday   // Sábado (Sports Highlights 13h, Midday Grace 14h, Country 18h, Rock Mix 19h, Classics Mix 20h, Non Stop 21h, Chill Mix 22h)
